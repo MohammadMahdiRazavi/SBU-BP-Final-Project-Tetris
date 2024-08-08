@@ -10,6 +10,12 @@
 
 using namespace std;
 
+struct gameHistory{
+    string name;
+    int score;
+    int time;
+};
+
 int main() {
 
 }
