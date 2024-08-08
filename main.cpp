@@ -8,8 +8,19 @@
 #include <chrono>
 #include <thread>
 #include <unistd.h>
+#include <iomanip>
+#include <algorithm>
 
 using namespace std;
+
+#define KB_UpArrow 72
+#define KB_DownArrow 80
+#define KB_LeftArrow 75
+#define KB_RightArrow 77
+#define KB_SPACE 32
+#define KB_ESC 27
+#define KB_r 114
+#define KB_h 104
 
 struct gameHistory{
     string name;
